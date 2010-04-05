@@ -1,0 +1,47 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.55.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 56d03993a29ee6a6ca85d4439c62b3bd28e5aae7 .gitignore
+SHA1 2c56d2940efb8d849464bfb1c801dce9df416713 Changes
+SHA1 76569572df5ee35d1e89226b65a344894eabd206 MANIFEST
+SHA1 65979de1e183fdca68265f9772cd78e45ead53f1 META.yml
+SHA1 2985d2da14f2d43476624848be339fe9d70c537f Makefile.PL
+SHA1 3224be3ffe2db255f29c572af31cd377c0dc4a89 README
+SHA1 171ca38c5eedbe92d2f5eb1e14e1725631960bab inc/Module/Install.pm
+SHA1 d001b4b9a48395a8c4134b234a0e1789138427c5 inc/Module/Install/AuthorTests.pm
+SHA1 6daffe6319ca8108cc3b0b0eaca26c67121e15de inc/Module/Install/Base.pm
+SHA1 4fba5930001ca62721cd7b2790f5cbe888e160f6 inc/Module/Install/Can.pm
+SHA1 9d374a00157befa504e6db14d83663875223e1ee inc/Module/Install/Fetch.pm
+SHA1 dcd214387ab49dc9b4c8a5100bed67a560fc6d49 inc/Module/Install/Include.pm
+SHA1 d170b3621ae4509969c61677aef41534dfa01a1e inc/Module/Install/Makefile.pm
+SHA1 ea2c6af29c2339be6fb78edf0924e6951eb40280 inc/Module/Install/Metadata.pm
+SHA1 fd81bc0e85a1193f278760edb82928d8b4dff2c1 inc/Module/Install/Repository.pm
+SHA1 121a3c95ebbbaea7b75df3ce7e922da7e6a0060f inc/Module/Install/Win32.pm
+SHA1 d9f0ea716ff81c7ae3fcaaf15cc03fb9bf4f01b1 inc/Module/Install/WriteAll.pm
+SHA1 07c750f370de7a44ee7b0ed9ec30a7e89c24c9b9 inc/Test/More.pm
+SHA1 e3fd87e69fa87cbed5944c1d48558dbd12043c0f lib/App/CLI/Plugin/Log/Dispatch/Configurator/YAML.pm
+SHA1 02f752199b6208cbef1f9a2ba82de335e6a3acd5 t/00_compile.t
+SHA1 f5a26d768346a8e561798ccdc86a4315ccb5aa04 xt/01_podspell.t
+SHA1 af45507a70a164e09ffc5f37915fd47cbbf083bd xt/02_perlcritic.t
+SHA1 e9c6a5881fc60173fbc8d479c1afd2ce3b43bef1 xt/03_pod.t
+SHA1 2341ca1eae093f62f04e38e305a1fadccac12f64 xt/perlcriticrc
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+
+iD8DBQFLugosTu6fyoTCPLERAuVjAKCQIfpDxCK0vagbzRu/cIjeYzEHPwCgk1aQ
+IyaIkAtKydlv8K8eA/uQXqU=
+=NAXn
+-----END PGP SIGNATURE-----
